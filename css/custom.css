@@ -1,20 +1,26 @@
-.logo{
+.logo {
     width: 20%;
     display:flex;
     flex-wrap: nowrap;
 }
 
-.container{
-   background: linear-gradient(45deg, #FF8FBF 0%, #008080 100%);
+.container {
+   background: linear-gradient(45deg, #ff8ffb 0%, #008080 100%);
 }
 
-.name{
+.name {
     display: flex;
     flex-wrap: wrap;
 }
 
-.ubuntu{
-    width: 100%;
-    height:
+.ubuntu {
+    max-width: 100%;
+    height: auto;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
